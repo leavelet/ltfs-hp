@@ -121,8 +121,8 @@ void show_runtime_system_info(void)
 						if((tmp = strchr(destribution, '\n')) != NULL)
 							*tmp = '\0';
 						ltfsmsg(LTFS_INFO, "17089I", destribution);
-						close(fd);
 					}
+					close(fd);
 				}
 				free(path);
 			}
