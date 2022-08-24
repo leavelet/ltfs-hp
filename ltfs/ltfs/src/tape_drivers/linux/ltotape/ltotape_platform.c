@@ -30,6 +30,14 @@
 
 #define __ltotape_platform_c
 
+#ifndef TRUE
+   #define TRUE 1
+#endif
+
+#ifndef FALSE
+   #define FALSE 0
+#endif
+
 #include <inttypes.h>
 #include <sys/types.h>
 #include <sys/stat.h>

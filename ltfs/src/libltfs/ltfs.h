@@ -64,6 +64,14 @@
 #ifndef __ltfs_h__
 #define __ltfs_h__
 
+#ifndef TRUE
+   #define TRUE 1
+#endif
+
+#ifndef FALSE
+   #define FALSE 0
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif

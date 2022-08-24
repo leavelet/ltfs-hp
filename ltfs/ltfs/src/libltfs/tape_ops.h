@@ -65,6 +65,14 @@
 #ifndef __tape_ops_h
 #define __tape_ops_h
 
+#ifndef TRUE
+   #define TRUE 1
+#endif
+
+#ifndef FALSE
+   #define FALSE 0
+#endif
+
 #include <stdint.h>
 #include <stdbool.h>
 #include "ltfs_types.h"

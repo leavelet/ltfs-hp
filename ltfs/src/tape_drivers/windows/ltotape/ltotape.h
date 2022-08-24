@@ -37,6 +37,14 @@
 ************************************************************************************* 
 */
 
+#ifndef TRUE
+   #define TRUE 1
+#endif
+
+#ifndef FALSE
+   #define FALSE 0
+#endif
+
 #ifndef __ltotape_h
 #define __ltotape_h
 
