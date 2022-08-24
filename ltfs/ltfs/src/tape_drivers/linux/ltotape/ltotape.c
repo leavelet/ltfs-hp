@@ -1,1 +1,0 @@
-../../osx/ltotape/ltotape.c

@@ -1,1 +1,0 @@
-../../osx/ltotape/ltotape_diag.c

@@ -47,7 +47,7 @@
 */
 
 #include "libltfs/ltfs.h"
-#ifndef mingw_PLATFORM
+#if (!defined (mingw_PLATFORM)) && (defined (HAVE_SYS_SYSCTL_H))
 #include <sys/sysctl.h>
 #endif
 #include <sys/types.h>
