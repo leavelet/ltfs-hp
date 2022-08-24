@@ -1,6 +1,7 @@
 My personal edition of HPE StoreOpen Software for arch linux.
 
 origin license:
+```
 
 =======================================================================
 HPE StoreOpen Software (HPE-SOS) - Version 3.5.0
@@ -575,3 +576,4 @@ Limitations:
 	4.	(Mac OS X)  Mac OS X's Spotlight will not display the files 
 		on LTFS as a result of search.
 
+```
