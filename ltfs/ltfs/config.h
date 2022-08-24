@@ -1,6 +1,13 @@
 /* config.h.  Generated from config.h.in by configure.  */
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
+#ifndef TRUE
+   #define TRUE 1
+#endif
+
+#ifndef FALSE
+   #define FALSE 0
+#endif
 /* Define to 1 if you have the `bzero' function. */
 #define HAVE_BZERO 1
 
